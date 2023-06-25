@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import {services} from '@/services/services.js'
+const pokemons = services.fetchPokemons();
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    
   </main>
 </template>
