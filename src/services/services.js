@@ -4,6 +4,7 @@ export const services = {
     async fetchPokemons () {
         const pokemons = await getPokemons();
 
-        console.log(pokemons)
+        // console.log(pokemons);
+        return pokemons
     }
 }
