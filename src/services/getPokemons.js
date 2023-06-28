@@ -14,9 +14,10 @@ export async function getPokemons()
    
         let urlPokemon = url+"/"+idPokemon;
 
-        await fetch(urlPokemon).then (
-            (z=> llista.push( z.json()))
-        );
+        await fetch(urlPokemon)
+            .then((z)=>z.json())
+            .then((z)=> llista.push(z))
+        ;
     }
     return llista;
 }

@@ -11,6 +11,7 @@ export const services = {
 
 export function addPokemon(pokemon)
 {
+    /*
 	const template = document.querySelector('#card-template').content
 	const fragment = document.createDocumentFragment()
 	
@@ -22,7 +23,8 @@ export function addPokemon(pokemon)
    
     const clone = template.cloneNode(true)
     fragment.appendChild(clone)
-
+    
 
 	view.appendChild(fragment)
+    */
 }
